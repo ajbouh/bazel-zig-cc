@@ -46,3 +46,7 @@ $ docker run --rm -it -v $(pwd):/workspace debian:buster-slim
 # bazel run --platforms=@com_github_ziglang_zig//:x86_64-linux-gnu.2.28 //test:hello
 # bazel run --platforms=@com_github_ziglang_zig//:x86_64-linux-gnu.2.28 //test:exception
 ```
+
+## License
+
+MIT License (except for patches in the `patches/` directory, which remain under the license of their respective repositories)
